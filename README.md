@@ -3,7 +3,7 @@
 Este proyecto se ha generado con [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3. Abordaremos la instalación de husky
 y la configuración del proyecto para usar git-hooks
 
-## ¿Qué es un git-hook?
+## ¿Qué es un git-hook?
 
 Son scripts que Git ejecutará antes o después de realizar acciones en tu repositorio, como crear un nuevo comit o subir código a un repositorio. Puedes obtener información sobre 
 todos los git-hooks disponibles en la [documentación oficial](https://git-scm.com/docs/githooks).
