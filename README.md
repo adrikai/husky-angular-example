@@ -58,7 +58,7 @@ Un ejemplo:
 
 `"fix(scope[optional]): your commit message"`
 
-## Instalación y configuración eslint y prettier
+## Instalación y configuración eslint y prettier
 
 Vamos a instalar eslint y prettier.
 
@@ -116,7 +116,7 @@ Y ponemos lo siguiente (También se puede añadir configuración, os muestro un 
 }
 ```
 
-## Instalación y configuración lint-staged
+## Instalación y configuración lint-staged
 
 Vamos a instalar el plugin de lint-staged, este plugin hará que sobre el código que tengamos
 en staged pendiente para hacer el commit se le aplique los pasos que especifiquemos (nosotros vamos a poner prettier y eslint).
@@ -138,13 +138,13 @@ Ahora en el package.json añadimos lo siguiente:
 }
 ```
 
-## Configuración pre-commit 
+## Configuración pre-commit 
 
 Ahora vamos al archivo de pre-commit (.husky/pre-commit) y añadimos el siguiente comando en el archivo:
 
 `npm run lint:staged`
 
-## Configuración de los test para pre-push
+## Configuración de los test para pre-push
 
 Antes pusimos en prepush los test. Ahora vamos a poner
 
@@ -157,7 +157,7 @@ Ahora en el archivo karma.conf.js cambiamos lo siguiente en browsers:
 
 Con ChromeHeadless evitamos que se abra una instancia de chrome en los test, y aparezcan en la consola.
 
-## ¡Listo para usarse!
+## ¡Listo para usarse!
 
 Con esto tendrás una configuración bastante aceptable para añadir en tus proyectos y dar un salto más en la calidad y en el control del código que se va a subir. Espero que os sea de utilidad.
 
